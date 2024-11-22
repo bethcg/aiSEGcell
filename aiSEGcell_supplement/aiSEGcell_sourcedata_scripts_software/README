@@ -1,0 +1,91 @@
+This readme file was generated on [2023-11-06] by [Daniel Schirmacher]
+
+# GENERAL INFORMATION
+
+Title of Dataset: Schirmacher_aiSEGcell_supplement
+
+Author/Principal Investigator Information
+Name: Prof. Dr. Timm Schroeder
+ORCID: 0000-0001-9320-0252
+Institution: ETH Zurich, Department of Biosystems Science and Engineering
+Address: Schanzenstrasse 44, 4056 Basel - Switzerland
+Email: timm.schroeder@bsse.ethz.ch
+
+Author/Associate or Co-investigator Information
+Name: Daniel Schirmacher
+ORCID: 0000-0001-8788-4811
+Institution: ETH Zurich, Department of Biosystems Science and Engineering
+Address: Schanzenstrasse 44, 4056 Basel - Switzerland
+Email: daniel.schirmacher@bsse.ethz.ch
+
+Date of data collection: 2020-01-01 until 2024-06-14 
+
+Geographic location of data collection: Basel, Switzerland
+
+Information about funding sources that supported the collection of the data: This project was funded in part by a grant (2022-309751) from Chan Zuckerberg Initiative 
+DAF (https://chanzuckerberg.com) an advised fund of Silicon Valley Community Foundation to D.S. and T.S. and Swiss National Science Foundation (https://www.snf.ch) 
+grant (186271) to T.S.. D.S. received a salary from grant 2022-309751 and 186271. Y.Z. received a salary from grant 186271. The funders had no role in study design, 
+data collection and analysis, decision to publish, or preparation of the manuscript.
+
+
+# SHARING/ACCESS INFORMATION
+
+Licenses/restrictions placed on the data and analysis scripts: Creative Commons Attribution 4.0 International Public License (CC-BY 4.0)
+Licenses/restrictions placed on the software: BSD 3-Clause License
+
+Links to publications that cite or use the data: TBD
+
+Links to other publicly accessible locations of the software: https://github.com/CSDGroup/aisegcell; https://github.com/CSDGroup/napari-aisegcell
+
+Links/relationships to ancillary data sets: None
+
+Was data derived from another source?
+If yes, list source(s):
+Kull, T., Wehling, E., Etzrodt, M., Auler, M., Dettinger, P., Aceto, N., Schroeder, T. (2022). NfkB signaling dynamics and their target genes differ between mouse blood cell types and induce distinct cell behavior. Blood.
+Wang, W., Zhang, Y., Dettinger, P., Reimann, A., Kull, T., Loeffler, D., Manz, M. G., Lengerke, C., Schroeder, T. (2021). Cytokine combinations for human blood stem cell expansion induce cell-type- and cytokine-specific signaling dynamics. Blood. 
+
+Recommended citation for this dataset: TBD
+
+
+# DATA & FILE OVERVIEW
+
+README.md [4 KB]
+software.tar [4.3 MB]
+  |__aisegcell.tar [2.7 MB]: code base for the aiSEGcell software
+  |__napari-aisegcell.tar [1.6 MB]: code base for aiSEGcell napari plugin
+sourcedata_analysis_scripts.tar [830.4 MB]: contains data and analysis scripts for the publication
+  |__fig1 [15.4 MB]: contains data and analysis scripts for Figure 1
+  |__fig2 [179.6 MB]: contains data and analysis scripts for Figure 2
+  |__...
+  |__suppl_fig1  [8 KB]: contains data and analysis scripts for Supplementary Figure 1
+  |__...
+  |__suppl_tab1 [12 KB]: contains data for Supplementary Table 1
+  |__...
+  |__suppl_tab17 [258 KB]: contains data for Supplementary Table 5
+  |__tab1 [254 KB]: contains data for Table 1
+
+
+Relationship between files, if important: 
+
+Download and unpack software.tar to browse the aiSEGcell software and napari plugin used for publication.
+Installation and usage manual for the software/plugin can be found in the README.md files within the respective folders.
+Download and unpack sourcedata_analysis_scripts.tar to browse the data and analysis scripts used for publication.
+All analysis scripts assume folder structures as provided in sourcedata_analysis_scripts.tar and need to be run within their respective folders (i.e., use relative paths to data).
+Analysis scripts in sourcedata_analysis_scripts were used with Python 3.10.9 and require packages:
+matplotlib
+numpy
+pandas
+scikit-image
+scikit-learn
+scipy
+seaborn
+tqdm
+
+Additional related data collected that was not included in the current data package: None
+
+
+# METHODOLOGICAL INFORMATION
+ 
+Description of methods used for collection/generation of data: TBD
+
+People involved with sample collection, processing, analysis and/or submission: Daniel Schirmacher (ETH Zurich, Switzerland) Yang Zhang (ETH Zurich, Switzerland) Uemmuenur Armagan (ETH Zurich, Switzerland) Tobias Kull (ETH Zurich, Switzerland) Shunsuke Kawamura (ETH Zurich, Switzerland) Simon Hastreiter (ETH Zurich, Switzerland) Markus Auler (ETH Zurich, Switzerland) Weijia Wang (ETH Zurich, Switzerland) Timm Schroeder (ETH Zurich, Switzerland) 

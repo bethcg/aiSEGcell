@@ -1,0 +1,22 @@
+name: napari-aisegcell
+display_name: aiSEGcell
+contributions:
+  commands:
+    - id: napari-aisegcell.make_sample_data
+      python_name: napari_aisegcell._sample_data:make_sample_data
+      title: Load sample data from aiSEGcell
+    - id: napari-aisegcell.make_layer_widget
+      python_name: napari_aisegcell:make_layer_mode_widget
+      title: Make layer mode widget
+    - id: napari-aisegcell.make_batch_widget
+      python_name: napari_aisegcell._widget_batch_mode:make_batch_mode_widget
+      title: Make batch mode widget
+  sample_data:
+    - command: napari-aisegcell.make_sample_data
+      display_name: bright field
+      key: bf1
+  widgets:
+    - command: napari-aisegcell.make_layer_widget
+      display_name: Layer mode
+    - command: napari-aisegcell.make_batch_widget
+      display_name: Batch mode
